@@ -1,11 +1,8 @@
 import React from 'react';
-import './categorie.styles.scss';
 import ChoixItem from '../choix-item/choix-item.component'
 
 class Categorie extends React.Component {
-
   constructor() {
-
     super()
     this.stage = {  
         sections : [
